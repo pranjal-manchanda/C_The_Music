@@ -12,8 +12,9 @@ This will print out the frequencies onto the console. Feel free to change the oc
 To get an audio .wav file, run the following command:
 ./synthesize song.wav < songs/song.txt
 
-*^Replace the keyword "song" with the actual name of the song*
-*A sample bday.wav file is already included along with the source files*
+**^Replace the keyword "song" with the actual name of the song*
+
+**A sample bday.wav file is already included along with the source files*
 
 
 **Some relevant files:**
@@ -32,4 +33,4 @@ synthesize.c- Takes the texttual representation of notes of different songs and 
 
 The source code contains a MAKEFILE that has the code required to compile/run the the combination of multiple files together (so user does not need to individually compile each one/know the order, etc)
 
-*Some accessory open source code imported from Harvard CS50*
+**Some accessory open source code imported from Harvard CS50*
